@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birth Day Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  </style>
+</head>
+<body>
+  <div class="introcontainer">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card ong">
+              <img src="imgs/dep1.PNG" />
+              <div class="text">
+              </div>
+              <div class="title-box">
+                <h1>❤️</h1>
+                <p>Too lit to quit.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card two">
+              <img src="imgs/dep2.PNG" alt="" />
+              <div class="text">
+              </div>
+              <div class="title-box">
+                <h1>🌼</h1>
+                <p>A sassy day keeps the basics away.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card three">
+              <img src="imgs/dep3.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>💃</h1>
+                <p>Nama’stay on the couch.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card ong">
+              <img src="imgs/dep6.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>👰</h1>
+                <p>Hella heart eyes for you.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card four">
+              <img src="imgs/dep7.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>🧚</h1>
+                <p>Being happy never goes out of style</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card three">
+              <img src="imgs/dep5.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>🦸‍♀️</h1>
+                <p>Stay in your magic.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card four">
+              <img src="imgs/dep4.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>👸</h1>
+                <p> Throw sass around like confetti.</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- If we need navigation buttons -->
+      <div class="swiper-arrows">
+        <div class="swiper-button-prev"><span></span></div>
+        <div class="swiper-button-next"><span></span></div>
+      </div>
+  
+      <!-- If we need scrollbar -->
+    </div>
+    <button class="next"><a href="second.html" target="_blank" >Next</a></button>
+  </div><script>
+    const swiper = new Swiper('.swiper-container', {
+      speed: 500,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      centeredSlides: true,
+      paginationClickable: true,
+      watchSlidesProgress: true,
+      loop: true,
+      slidesPerView: 2,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
